@@ -1,0 +1,65 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "hotel",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "HotelIntroductionIntent",
+                    "slots": [],
+                    "samples": [
+                        "say more about this from",
+                        "what do you know about this from "
+                    ]
+                },
+                {
+                    "name": "WelcomeMessageIntent",
+                    "slots": [],
+                    "samples": [
+                        "hi",
+                        "hello"
+                    ]
+                },
+                {
+                    "name": "ExploreHotelIntent",
+                    "slots": [],
+                    "samples": [
+                        "what can i explore from ",
+                        "what amenities are avaialable from"
+                    ]
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
